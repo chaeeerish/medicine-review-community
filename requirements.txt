@@ -1,1 +1,8 @@
 pymysql
+Flask
+db
+Bcrypt
+Migrate
+SQLAlchemy
+MetaData
+requests
