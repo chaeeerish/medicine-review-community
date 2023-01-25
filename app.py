@@ -30,4 +30,4 @@ from filter import format_datetime
 app.jinja_env.filters['datetime'] = format_datetime
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
