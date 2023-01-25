@@ -29,5 +29,5 @@ app.register_blueprint(comment_views.bp)
 from filter import format_datetime
 app.jinja_env.filters['datetime'] = format_datetime
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=8000)
